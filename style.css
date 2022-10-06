@@ -10,6 +10,40 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+ 
 }
+.city-list{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  background-color: #1e3932; 
+  padding: 7px;
+  border: 2px solid #f2f0eb;
+  margin: 15px;
 
+}
+.city-list > div {
+  background-color: #00754a;
+  margin:3px;
+  text-align: right;
+  padding-right: 10px;
+  
+}
+header{
+  background-color: grey;
+  padding: 10px;
+  margin: 15px;
+}
+body{
+ background-color: #1e3932;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+nav > h1{
+  color: white;
+  font-size: 30px;
+}
 /* your code */
